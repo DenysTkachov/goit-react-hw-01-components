@@ -1,26 +1,9 @@
-import styled from 'styled-components';
-
-const ProfileContainer = styled.div`
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-`;
-
-const UserInfo = styled.div`
-  text-align: center;
-`;
-
-const UserStats = styled.ul`
-  display: flex;
-  flex-direction: row;
-  list-style: none;
-  padding: 0;
-`;
-
-const UserItem = styled.li`
-  margin: 0 20px;
-`;
+import {
+  ProfileContainer,
+  UserInfo,
+  UserStats,
+  UserItem,
+} from './Profile.styled';
 
 export const Profile = ({ username, tag, location, avatar, stats }) => {
   return (

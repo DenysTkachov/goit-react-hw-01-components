@@ -7,6 +7,8 @@ const StatisticSection = styled.section`
   flex-direction: column;
   align-items: center;
   text-align: center;
+  border: 1px solid #ccc; 
+  border-radius: 5px; 
 `;
 
 const Title = styled.h2`
@@ -19,8 +21,7 @@ const StatList = styled.ul`
   flex-direction: row;
   list-style: none;
   padding: 0;
-  align-items: center;
-  gap: 10px;
+  align-items: center;  
 `;
 
 const StatItem = styled.li`
@@ -29,6 +30,8 @@ const StatItem = styled.li`
   align-items: center;
   margin-bottom: 10px;
   gap: 10px;
+  border: 2px solid #ccc;
+  padding: 10px;
 `;
 
 const Label = styled.span`
