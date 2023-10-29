@@ -1,6 +1,6 @@
 import {
   FriendItem,
-  FriendStatus,
+
   Avatar,
   Name,
 } from './FriendListItem.styled';
@@ -8,7 +8,13 @@ import {
 export const FriendListItem = ({ avatar, name, isOnline }) => {
   return (
     <FriendItem>
-      <FriendStatus $isOnline={isOnline} />
+      <div
+        style={{
+          width: '20px',
+          height: '20px',
+          background: isOnline ? 'green' : 'red',
+        }}
+      ></div>
       <Avatar src={avatar} alt={name} />
       <Name>{name}</Name>
     </FriendItem>

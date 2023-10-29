@@ -1,46 +1,11 @@
-import styled from 'styled-components';
-
-const StatisticSection = styled.section`
-  width: 400px;
-  background-color: #f3f7ff;
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  margin: 0 auto;
-`;
-
-const Title = styled.h2`
-  text-transform: uppercase;
-  text-align: center;
-`;
-
-const StatList = styled.ul`
-  display: flex;
-  flex-direction: row;
-  list-style: none;
-  padding: 0;
-  align-items: center;  
-`;
-
-const StatItem = styled.li`
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-bottom: 10px;
-  gap: 10px;
-  border: 2px solid #ccc;
-  padding: 10px;
-`;
-
-const Label = styled.span`
-  display: flex;
-`;
-
-const Percentage = styled.span``;
+import {
+  StatisticSection,
+  Title,
+  StatList,
+  StatItem,
+  Label,
+  Percentage,
+} from './Statistics.styled';
 
 export const Statistics = ({ title, stats }) => {
   return (

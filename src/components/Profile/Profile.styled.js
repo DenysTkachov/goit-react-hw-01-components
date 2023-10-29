@@ -5,7 +5,15 @@ export const ProfileContainer = styled.div`
   flex-direction: column;
   align-items: center;
   text-align: center;
-  
+  background: linear-gradient(
+    to bottom,
+    #f0f0f0,
+    #aaa
+  );
+  border-radius: 10px;
+  padding: 20px;
+  width: 400px;
+  margin: 0 auto;
 `;
 
 export const UserInfo = styled.div`
