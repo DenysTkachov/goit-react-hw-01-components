@@ -1,14 +1,16 @@
 import styled from 'styled-components';
 
 const StatisticSection = styled.section`
+  width: 400px;
   background-color: #f3f7ff;
   padding: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
-  border: 1px solid #ccc; 
-  border-radius: 5px; 
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 0 auto;
 `;
 
 const Title = styled.h2`

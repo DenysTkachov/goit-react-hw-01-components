@@ -5,6 +5,7 @@ export const ProfileContainer = styled.div`
   flex-direction: column;
   align-items: center;
   text-align: center;
+  
 `;
 
 export const UserInfo = styled.div`
@@ -16,8 +17,10 @@ export const UserStats = styled.ul`
   flex-direction: row;
   list-style: none;
   padding: 0;
+  
 `;
 
 export const UserItem = styled.li`
   margin: 0 20px;
+  
 `;
